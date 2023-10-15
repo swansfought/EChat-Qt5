@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/EChat/build",
+  "command": "/usr/bin/g++   -I/home/EChat/include  -g   -std=gnu++11 -o CMakeFiles/EChat.dir/main.cpp.o -c /home/EChat/main.cpp",
+  "file": "/home/EChat/main.cpp"
+},
+{
+  "directory": "/home/EChat/build/src",
+  "command": "/usr/bin/g++   -I/home/EChat/include  -g   -std=gnu++11 -o CMakeFiles/echatlib.dir/DataBase.cpp.o -c /home/EChat/src/DataBase.cpp",
+  "file": "/home/EChat/src/DataBase.cpp"
+},
+{
+  "directory": "/home/EChat/build/src",
+  "command": "/usr/bin/g++   -I/home/EChat/include  -g   -std=gnu++11 -o CMakeFiles/echatlib.dir/FdTool.cpp.o -c /home/EChat/src/FdTool.cpp",
+  "file": "/home/EChat/src/FdTool.cpp"
+},
+{
+  "directory": "/home/EChat/build/src",
+  "command": "/usr/bin/g++   -I/home/EChat/include  -g   -std=gnu++11 -o CMakeFiles/echatlib.dir/Server.cpp.o -c /home/EChat/src/Server.cpp",
+  "file": "/home/EChat/src/Server.cpp"
+}
+]

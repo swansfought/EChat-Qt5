@@ -1,0 +1,6 @@
+/home/EChat/build/CMakeFiles/rebuild_cache.dir
+/home/EChat/build/CMakeFiles/edit_cache.dir
+/home/EChat/build/CMakeFiles/EChat.dir
+/home/EChat/build/src/CMakeFiles/rebuild_cache.dir
+/home/EChat/build/src/CMakeFiles/edit_cache.dir
+/home/EChat/build/src/CMakeFiles/echatlib.dir

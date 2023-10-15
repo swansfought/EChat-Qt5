@@ -1,0 +1,131 @@
+#widget_loginBackground{
+    background-color: rgb(255, 255, 255);
+    border-radius:5px;
+}
+
+/*图标设置*/
+#lab_icon{image:url(:/img/EChat.png);}
+#lab_accountImage{image:url(:/img/account.png);}
+#lab_pwdImage{image:url(:/img/password.png);}
+#btn_closeRegister{image:url(:/img/flod.png);}
+#btn_reflushNickName{image:url(:/img/refresh.png);}
+#btn_pwdIsOpen{image:url(:/img/pwdClose.png);}
+
+
+/*帮助按钮*/
+/*关闭按钮*/
+/*刷新昵称按钮*/
+/*关闭注册按钮*/
+/*显示密码按钮*/
+/*前往注册按钮*/
+#btn_help,
+#btn_closeRegister,
+#btn_reflushNickName,
+#btn_pwdIsOpen,
+#btn_goRegister,
+#btn_forgetPassword{
+        background-color:rgb(255,255,255);
+        border-radius:0px;
+        color:rgb(0,0,0);
+}
+#btn_help:hover,
+#btn_closeRegister:hover,
+#btn_reflushNickName:hover,
+#btn_pwdIsOpen:hover{
+    background-color:rgb(238,238,238);
+}
+
+#btn_help:pressed,
+#btn_closeRegister:pressed,
+#btn_reflushNickName:pressed,
+#btn_pwdIsOpen:pressed{
+    background-color:rgb(229, 229, 229);
+}
+
+/*关闭按钮*/
+#btn_close{
+        background-color:rgb(255,255,255);
+        color:rgb(0,0,0);
+        /*border-radius:0px;*/
+        border-top-right-radius:5px;
+}
+#btn_close:hover{
+        background-color:rgb(248, 99, 95);
+        color:rgb(255,255,255);
+}
+#btn_close:pressed{
+    background-color:rgb(240, 91, 87);
+}
+
+/*刷新昵称按钮圆角设置*/
+/*显示密码按钮圆角设置*/
+#btn_reflushNickName,
+#btn_pwdIsOpen{
+    border-radius:5px;
+/*     border-top-right-radius:5px;*/
+/*     border-bottom-right-radius:5px;*/
+}
+
+/*输入框*/
+#line_loginPwd,
+#line_nickName,
+#line_registerPwd{
+    /*background-color: rgb(227,245,255);*/
+    background-color: rgb(255, 255, 255);
+    border-radius:5px;
+    border:2px solid gray;
+    font: 10pt "Microsoft YaHei UI";
+    padding-left: 5px;/*左侧边距*/
+}
+
+/*登录按钮*/
+/*确认注册按钮*/
+#btn_login,
+#btn_sureRegister{
+    background-color:rgb(245, 245, 245);
+    border-radius:4px;
+    border:1px solid gray;
+}
+#btn_login:hover,
+#btn_sureRegister:hover{
+    background-color:rgb(238,238,238);
+}
+#btn_login:pressed,
+#btn_sureRegister:pressed{
+    background-color:rgb(229, 229, 229);
+}
+
+/*注册按钮按下文字放大效果*/
+#btn_goRegister:hover,
+#btn_forgetPassword:hover{font-weight:bold;}
+
+/*QCombobox组合框*/
+#com_loginAccount{
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding-left: 5px;/*左侧边距*/
+}
+
+/*QCombobox右侧按钮*/
+#com_loginAccount::drop-down {
+    subcontrol-origin:padding;
+    subcontrol-position:top right;/*放于右方顶部*/
+    width:30px;/*设置按钮范围宽度*/
+    border-radius:0px;
+}
+
+/*QCombobox右侧按钮的箭头图标*/
+#com_loginAccount::down-arrow {
+    border-image:url(:/img/comBoxFlod.png);/*自定义图片填充*/
+    width:30px;
+    height:30px;
+}
+
+/* 下拉后，整个下拉窗体样式 */
+#com_loginAccount QAbstractItemView {
+    border: 2px solid gray;/*边框宽度、线形、颜色*/
+    background-color: rgb(255, 255, 255);
+    padding:2px;
+    /*border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;*/
+}

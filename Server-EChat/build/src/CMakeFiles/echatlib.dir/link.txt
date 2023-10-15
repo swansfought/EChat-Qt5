@@ -1,0 +1,2 @@
+/usr/bin/ar qc libechatlib.a  CMakeFiles/echatlib.dir/DataBase.cpp.o CMakeFiles/echatlib.dir/FdTool.cpp.o CMakeFiles/echatlib.dir/Server.cpp.o
+/usr/bin/ranlib libechatlib.a

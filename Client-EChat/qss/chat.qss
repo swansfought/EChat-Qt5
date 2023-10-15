@@ -1,0 +1,39 @@
+
+
+#btn_emotion,
+#btn_image,
+#btn_file,
+#btn_screenshot,
+#btn_more{
+    background-color:rgb(245, 246, 247);
+    border-top-right-radius:5px;
+}
+
+#btn_emotion:hover{
+    background-color:rgb(245, 246, 247);
+    image:url(:/img/emo-clicked.png);
+}
+#btn_image:hover{
+    background-color:rgb(245, 246, 247);
+    image:url(:/img/image-clicked.png);
+}
+#btn_file:hover{
+    background-color:rgb(245, 246, 247);
+    image:url(:/img/folder-clicked.png);
+}
+#btn_screenshot:hover{
+    background-color:rgb(245, 246, 247);
+    image:url(:/img/screenshot-clicked.png);
+}
+#btn_more:hover{
+    background-color:rgb(245, 246, 247);
+    image:url(:/img/more-clicked.png);
+}
+
+#btn_emotion:pressed,
+#btn_emotion:pressed,
+#btn_file:pressed,
+#btn_screenshot:pressed,
+#btn_more:pressed{
+    background-color:rgb(245, 246, 247);
+}

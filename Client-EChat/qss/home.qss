@@ -1,0 +1,436 @@
+
+#widget_homeBackground{
+    background-color: rgb(245, 246, 247);
+    border-radius:5px;
+}
+
+/*顶部dock栏按钮样式设置*/
+#btn_plus::menu-indicator{image:none}
+#btn_hmin,
+#btn_hmax{
+    background-color:rgb(245, 246, 247);
+    border-radius:0px;
+    color:rgb(0,0,0);
+}
+#btn_hmin:hover,
+#btn_hmax:hover{
+    background-color:rgb(226, 226, 226);
+}
+
+#btn_hmin:pressed,
+#btn_hmax:pressed{
+    background-color:rgb(209, 209, 209);
+}
+
+#btn_hclose{
+        background-color:rgb(245, 246, 247);
+        color:rgb(0,0,0);
+        /*border-radius:0px;*/
+        border-top-right-radius:5px;
+}
+#btn_hclose:hover{
+        background-color:rgb(248, 99, 95);
+        color:rgb(255,255,255);
+}
+#btn_hclose:pressed{ background-color:rgb(240, 91, 87); }
+
+/*顶部dock栏按钮*/
+#btn_plus,
+#btn_headPic,
+#btn_message,
+#btn_contact,
+#btn_file,
+#btn_config,
+#btn_more{
+    background-color:rgb(245, 246, 247);
+    border-top-right-radius:5px;
+}
+#btn_plus:hover,
+#btn_headPic:hover,
+#btn_message:hover,
+#btn_contact:hover,
+#btn_file:hover,
+#btn_config:hover,
+#btn_more:hover{
+    background-color:rgb(245, 246, 247);
+}
+#btn_plus:pressed,
+#btn_headPic:pressed,
+#btn_message:pressed,
+#btn_contact:pressed,
+#btn_file:pressed,
+#btn_config:pressed,
+#btn_more:pressed{
+    background-color:rgb(245, 246, 247);
+}
+
+/*配置界面*/
+#widget_configDock{
+    background-color:rgb(245, 246, 247);
+}
+#scroll_config{
+    background-color:rgb(245, 246, 247);
+}
+
+#widget_contactTypeBackground,
+#widget_contactType{
+    background-color:rgb(240, 240, 240);
+}
+
+#btn_seek{
+    background-color:rgb(245, 246, 247);
+    border-radius:4px;
+}
+#btn_seek:hover{ background-color:rgb(235, 235, 235);}
+#btn_seek:pressed{ background-color:rgb(225, 225, 225);}
+
+
+#btn_seekFriend,
+#btn_seekGroup{
+    background-color:rgb(245, 246, 247);
+    border:none;
+}
+#btn_seekFriend:hover,
+#btn_seekGroup:hover{
+    background-color:rgb(245, 246, 247);
+    color:rgb(53, 152, 219);
+    border-bottom:2px solid #3598db;
+}
+#btn_seekFriend:checked,
+#btn_seekGroup:checked{
+    background-color:rgb(245, 246, 247);
+    color:rgb(53, 152, 219);
+    border-bottom:2px solid #3598db;
+}
+#btn_friend,
+#btn_group{
+    background-color:rgb(240, 240, 240);
+/*    border-radius:4px;*/
+/*    font-weight:bold;*/
+/*    color:rgb(55, 55, 55);*/
+    border:none;
+}
+#btn_friend:hover,
+#btn_group:hover{
+    background-color:rgb(240, 240, 240);
+    color:rgb(53, 152, 219);
+    border-bottom:2px solid #3598db;
+/*    background-color:rgb(235, 235, 235);*/
+}
+#btn_friend:checked,
+#btn_group:checked{
+    background-color:rgb(240, 240, 240);
+    color:rgb(53, 152, 219);
+    border-bottom:2px solid #3598db;
+/*    background-color:rgb(225,225,225);*/
+}
+
+#btn_grpEditMyName{
+    background-color:rgb(245, 246, 247);
+    border:none;
+}
+#btn_grpEditMyName:hover{
+    background-color:rgb(235, 235, 235);
+}
+#btn_grpEditMyName:pressed{
+    background-color:rgb(225, 225, 225);
+}
+/**************普通按钮样式*********************/
+#btn_openFilePos,
+#btn_openScreenShotPos,
+#btn_addGroupPicture,
+#btn_sureAddGourp,
+#btn_cancelAddGroup,
+#btn_add,
+#btn_editPicture,
+#btn_deleteContact,
+#btn_edit,
+#btn_sendMsg,
+#btn_quitGroup,
+#btn_grpEdit,
+#btn_grpSendMsg,
+#btn_editGrpPicture,
+#btn_grpShowMembers,
+#btn_exitLogin,
+#btn_surePasswordModify,
+#btn_resetPassword,
+#btn_resetPwd,
+#btn_selectNewPath,
+#btn_submitSuggest{
+    background-color:rgb(245, 245, 245);
+    border-radius:4px;
+    border:1px solid gray;
+}
+#btn_openFilePos:hover,
+#btn_openScreenShotPos:hover,
+#btn_addGroupPicture:hover,
+#btn_sureAddGourp:hover,
+#btn_cancelAddGroup:hover,
+#btn_add:hover,
+#btn_editPicture:hover,
+#btn_deleteContact:hover,
+#btn_edit:hover,
+#btn_sendMsg:hover,
+#btn_quitGroup:hover,
+#btn_grpEdit:hover,
+#btn_grpSendMsg:hover,
+#btn_editGrpPicture:hover,
+#btn_grpShowMembers:hover,
+#btn_exitLogin:hover,
+#btn_surePasswordModify:hover,
+#btn_resetPassword:hover,
+#btn_resetPwd:hover,
+#btn_selectNewPath:hover
+#btn_submitSuggest:hover{
+    background-color:rgb(238,238,238);
+}
+#btn_openFilePos:pressed,
+#btn_openScreenShotPos:pressed,
+#btn_addGroupPicture:pressed,
+#btn_sureAddGourp:pressed,
+#btn_cancelAddGroup:pressed,
+#btn_add:pressed,
+#btn_editPicture:pressed,
+#btn_deleteContact:pressed,
+#btn_edit:pressed,
+#btn_sendMsg:pressed,
+#btn_quitGroup:pressed,
+#btn_grpEdit:pressed,
+#btn_grpSendMsg:pressed,
+#btn_editGrpPicture:pressed,
+#btn_grpShowMembers:pressed,
+#btn_exitLogin:pressed,
+#btn_surePasswordModify:pressed,
+#btn_resetPassword:pressed,
+#btn_resetPwd:pressed,
+#btn_selectNewPath:pressed,
+#btn_submitSuggest:pressed{
+    background-color:rgb(229, 229, 229);
+}
+#btn_newPassword,
+#btn_sureNewPassword{
+    background-color:rgb(240, 240, 240);
+    border:none;
+}
+#btn_newPassword:hover,
+#btn_sureNewPassword:hover{
+    background-color:rgb(240, 240, 240);
+}
+#btn_newPassword:pressed,
+#btn_sureNewPassword:pressed{
+    background-color:rgb(240, 240, 240);
+}
+
+#line_id,
+#line_grpId{
+    background-color:rgb(245, 246, 247);
+
+}
+
+/*QCombobox组合框*/
+#cBox_sex{
+    border: 1px solid gray;
+    border-radius: 0px;
+    padding-left: 5px;/*左侧边距*/
+}
+
+/*QCombobox右侧按钮*/
+#cBox_sex::drop-down {
+    subcontrol-origin:padding;
+    subcontrol-position:top right;/*放于右方顶部*/
+    width:30px;/*设置按钮范围宽度*/
+    border-radius:0px;
+}
+
+/*QCombobox右侧按钮的箭头图标*/
+#cBox_sex::down-arrow {
+    border-image:url(:/img/comBoxFlod.png);/*自定义图片填充*/
+    width:30px;
+    height:30px;
+}
+
+/* 下拉后，整个下拉窗体样式 */
+#cBox_sex QAbstractItemView {
+    border: 1px solid gray;/*边框宽度、线形、颜色*/
+    background-color: rgb(255, 255, 255);
+    padding:2px;
+    /*border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;*/
+}
+
+
+/**lineEdit输入框样式*/
+#line_nickname
+#line_id
+#text_selfSay/**/
+#line_phone
+#line_region
+#line_email
+#line_grpNickname,
+#line_grpId,
+#text_grpIntro,/**/
+#line_usrGrpNickname{
+
+}
+
+
+/**********小dock栏按钮样式表**************/
+#btn_allFile,
+#btn_friendFile,
+#btn_groupFile,
+#btn_account,
+#btn_password,
+#btn_update,
+#btn_notify,
+#btn_fileManage,
+#btn_about{
+    background-color:rgb(245, 246, 247);
+    border-radius:2px;
+    color:rgb(0,0,0);
+}
+#btn_allFile:hover,
+#btn_friendFile:hover,
+#btn_groupFile:hover,
+#btn_account:hover,
+#btn_password:hover,
+#btn_update:hover,
+#btn_notify:hover,
+#btn_fileManage:hover,
+#btn_about:hover{
+    background-color:rgb(235, 235, 235);
+}
+#btn_allFile:checked,
+#btn_friendFile:checked,
+#btn_groupFile:checked,
+#btn_account:checked,
+#btn_password:checked,
+#btn_update:checked,
+#btn_notify:checked,
+#btn_fileManage:checked,
+#btn_about:checked{
+    background-color:rgb(225, 225, 225);
+}
+
+/*输入框*/
+#line_realTimeSearch,
+#line_newPassword,
+#line_sureNewPassword{
+    background-color: rgb(255, 255, 255);
+    border-radius:5px;
+    border:1px solid gray;
+    padding-left: 5px;/*左侧边距*/
+}
+#line_nickname,
+#line_phone,
+#line_region,
+#line_email,
+#line_grpNickname,
+#line_usrGrpNickname{
+    background-color: rgb(245, 246, 247);
+    border:none;
+    padding-left: 5px;
+}
+
+
+/*QToolButton工具按钮*/
+QToolButton
+{
+    border:none;
+    color:rgb(55,55,55);
+    background-color:rgb(240,240,240);
+    width:95px;
+    height:25px;
+}
+QToolButton:hover
+{
+    border:none;
+    background-color:rgb(220,220,220);
+}
+
+/*QMenu菜单*/
+QMenu{
+    background-color:rgb(255, 255, 255);
+    padding:3px;
+}
+QMenu::item{
+    padding:2px 2px;
+    color:rgb(51,51,51);
+}
+
+QMenu::item:text {
+    padding-left:10px;
+    padding-right:10px;
+}
+QMenu::item:selected{
+    color:#1aa3ff;
+    background-color: #e5f5ff;
+/*    border-radius:4px;*/
+}
+
+/*QScrollBar滚动条*/
+QScrollBar:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+    padding-top:9px;
+    padding-bottom:9px;
+}
+QScrollBar::handle:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,25%);
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:8px;
+    background:rgba(0,0,0,50%);
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical
+{
+    height:9px;width:8px;
+    subcontrol-position:bottom;
+}
+QScrollBar::sub-line:vertical
+{
+    height:9px;width:8px;
+    subcontrol-position:top;
+}
+QScrollBar::add-line:vertical:hover
+{
+    height:9px;width:8px;
+    subcontrol-position:bottom;
+}
+QScrollBar::sub-line:vertical:hover
+{
+    height:9px;width:8px;
+    subcontrol-position:top;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical
+{
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}
+
+
+/*
+下拉后，整个下拉窗体每项的样式
+QComboBox QAbstractItemView::item {
+    color:rgb(0,0,0);
+    background-color: rgb(255,255,255);
+}
+下拉后，整个下拉窗体越过每项的样式
+QComboBox QAbstractItemView::item:hover {
+    color:rgb(255,255,255);
+    background-color: rgb(238,238,238);
+}
+下拉后，整个下拉窗体被选择的每项的样式
+QComboBox QAbstractItemView::item:selected {
+    color: rgb(255,255,255);
+    background-color: rgb(229, 229, 229);
+}
+*/
