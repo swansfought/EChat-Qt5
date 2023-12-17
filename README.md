@@ -10,7 +10,7 @@
 
 ### 2.消息收发模块
 
-![image](https://github.com/swansfought/EChat/blob/main/%E9%83%A8%E5%88%86%E6%88%AA%E5%9B%BE/md/%E6%B6%88%E6%81%AF%E6%94%B6%E5%8F%91%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E5%9B%BE.png))
+![image](https://github.com/swansfought/EChat/blob/main/%E9%83%A8%E5%88%86%E6%88%AA%E5%9B%BE/md/%E6%B6%88%E6%81%AF%E6%94%B6%E5%8F%91%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E5%9B%BE.png)
 
 
 ### 3.联系人管理模块
@@ -19,13 +19,17 @@
 
 
 ### 4.文件管理模块
+
 只列出已实现的
+
 ![image](https://github.com/swansfought/EChat/blob/main/%E9%83%A8%E5%88%86%E6%88%AA%E5%9B%BE/md/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E6%A8%A1%E5%9D%97%E5%9B%BE.png)
 
 
 ### 5.用户配置模块
+
 只列出已实现的
-![image](https://github.com/swansfought/EChat/blob/main/%E9%83%A8%E5%88%86%E6%88%AA%E5%9B%BE/md/%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E5%9B%BE(%E5%9B%BE%E4%B8%AD%E4%B8%BA%E5%B7%B2%E5%AE%9E%E7%8E%B0%E7%9A%84).png)
+
+![image](https://github.com/swansfought/EChat/blob/main/%E9%83%A8%E5%88%86%E6%88%AA%E5%9B%BE/md/%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E5%9B%BE(%E5%9B%BE%E4%B8%AD%E4%B8%BA%E5%B7%B2%E5%AE%9E%E7%8E%B0%E7%9A%84.png)
 
 
 ### 6.用户反馈模块
