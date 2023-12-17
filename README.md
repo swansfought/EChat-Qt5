@@ -5,7 +5,7 @@
 
 ### 1. 登录注册模块
 
-![image](.\部分截图\md\登录注册模块处理流程图.png)
+![image](https://github.com/swansfought/EChat/blob/main/%E9%83%A8%E5%88%86%E6%88%AA%E5%9B%BE/md/%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C%E6%A8%A1%E5%9D%97%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
 
 
