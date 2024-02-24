@@ -25,6 +25,11 @@
 ### 应用技术
   Linux 、 C/C++ 、 QT 、 Socket 、 epoll 、 CMake 、 QSS 、 JSON 、 HTML 、 MySQL 、 SQLite 。
 
+  jsoncpp：
+  说明：是一个用来处理 Json文本的开源C++库
+  github地址：https://github.com/open-source-parsers/jsoncpp
+  注：项目中已把jsoncpp编译成库文件，所以没直接包含在项目中
+
 ### 代码结构
   服务器代码：epoll+多线程实现高并发，数据存储使用MySQL
   客户端代码：qt编写，数据存储使用SQLite
