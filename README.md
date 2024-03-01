@@ -20,25 +20,18 @@
  
 ## EChat概述
 ​	Qt即时通讯软件EChat。23年大四下毕业设计，本项目主要提供稳定且支持多平台的通讯软件，以提升用户体验。
-  至于代码方面也存在很多问题的，很多其实需要重写和优化的。
+ 
+ 至于代码方面也存在很多问题的，很多其实需要重写和优化的。
  
 ### 应用技术
-  Linux 、 C/C++ 、 QT 、 Socket 、 epoll 、 CMake 、 QSS 、 JSON 、 HTML 、 MySQL 、 SQLite 。
-
-  jsoncpp
-  
-  说明：是一个用来处理 Json文本的开源C++库
-  
-  github地址：https://github.com/open-source-parsers/jsoncpp
-  
-  注：项目中已把jsoncpp编译成库文件，所以没直接包含在项目中
+  Linux 、 C/C++ 、 QT 、 Socket 、 epoll 、 CMake 、 QSS 、 JSON 、jsoncpp 、 HTML 、 MySQL 、 SQLite 。
 
 ### 代码结构
   服务器代码：epoll+多线程实现高并发，数据存储使用MySQL
   客户端代码：qt编写，数据存储使用SQLite
   
 ### 重点待改进点
-  主要列举几个其他的可以自行进行完善和补充哈
+  列举服务器的一些主要问题，客户端的以及服务器其他的问题可以自行进行完善和补充哈！
   
   1、使用线程池去管理线程的创建和销毁，提高线程处理效率和减少CPU负载；
   
