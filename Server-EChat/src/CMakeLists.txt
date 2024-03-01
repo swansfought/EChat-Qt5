@@ -12,5 +12,6 @@ set(mysql_lib mysqlclient)
 target_link_libraries(echatlib ${mysql_lib}) 
 
 # 使用jsoncpp
-set(jsoncpp_lib libjsoncpp.a)
+set(jsoncpp_lib ${PROJECT_SOURCE_DIR}/lib/libjsoncpp.a)
 target_link_libraries(echatlib ${jsoncpp_lib}) 
+

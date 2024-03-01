@@ -1,1 +1,1 @@
-/usr/bin/g++  -g  -rdynamic CMakeFiles/EChat.dir/main.cpp.o  -o EChat  -L/usr/local/lib  -L/usr/lib64/mysql -Wl,-rpath,/usr/local/lib:/usr/lib64/mysql src/libechatlib.a -lpthread -lmysqlclient -Wl,-Bstatic -ljsoncpp -Wl,-Bdynamic 
+/usr/bin/c++ -rdynamic CMakeFiles/EChat.dir/main.cpp.o -o EChat   -L/usr/local/lib  -L/usr/lib64/mysql  -Wl,-rpath,/usr/local/lib:/usr/lib64/mysql src/libechatlib.a -lmysqlclient ../lib/libjsoncpp.a 

@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/EChat.dir/main.cpp.o"
-  "EChat.pdb"
+  "CMakeFiles/EChat.dir/main.cpp.o.d"
   "EChat"
+  "EChat.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

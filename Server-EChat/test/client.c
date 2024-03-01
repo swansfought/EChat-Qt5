@@ -44,7 +44,7 @@ int main()
         int len = read(fd, buf, sizeof(buf));
         if (len > 0)
         {
-            printf("服务器说: %s\n", buf);
+            printf("服务器: %s\n", buf);
         }
         else if (len == 0)
         {
@@ -56,42 +56,10 @@ int main()
             perror("read");
             break;
         }
-        // sleep(2);
+        // sleep(1);
     }
 
     close(fd);
 
     return 0;
 }
-
-/*
-
-    int num = 0;
-    while (1)
-    {
-        // 发送数据
-        char buf[1024];
-        // sprintf(buf, "hello, server...%d\n", num++);
-        scanf(buf);
-        write(fd, buf, strlen(buf) + 1);
-
-        // 接收数据
-        memset(buf, 0, sizeof(buf));
-        int len = read(fd, buf, sizeof(buf));
-        if (len > 0)
-        {
-            printf("服务器说: %s\n", buf);
-        }
-        else if (len == 0)
-        {
-            printf("服务器断开了连接...\n");
-            break;
-        }
-        else
-        {
-            perror("read");
-            break;
-        }
-        sleep(2);
-    }
-*/

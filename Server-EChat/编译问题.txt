@@ -1,0 +1,30 @@
+
+问题：json/json.h：没有这样的文件或目录
+
+sudo apt-get install libjsoncpp-dev（XXX install libjsoncpp-dev）
+sudo ln -s /usr/include/jsoncpp/json/ /usr/include/json
+
+
+问题：如何编译jsoncpp
+github：https://github.com/open-source-parsers/jsoncpp
+
+
+步骤如下（注意此时你已经有了jsoncpp文件夹以及其子目录...）：
+
+1.进入目录
+cd jsoncpp 
+
+2.创建编译目录并进入
+mkdir -p build/debug
+cd ./build/debug/
+
+3.执行cmake
+cmake -DCMAKE_BUILD_TYPE=debug -DBUILD_SHARED_LIBS=OFF -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY=../../lib -G "Unix Makefiles" ../../
+
+4.编译
+make
+
+5.回到项目根目录查看编译结果
+cd ../.. && tree lib 
+
+6.会看到一个libjsoncpp.a库，编译成功

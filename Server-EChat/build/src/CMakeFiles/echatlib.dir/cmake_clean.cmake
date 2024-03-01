@@ -1,9 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/echatlib.dir/DataBase.cpp.o"
+  "CMakeFiles/echatlib.dir/DataBase.cpp.o.d"
   "CMakeFiles/echatlib.dir/FdTool.cpp.o"
+  "CMakeFiles/echatlib.dir/FdTool.cpp.o.d"
   "CMakeFiles/echatlib.dir/Server.cpp.o"
-  "libechatlib.pdb"
+  "CMakeFiles/echatlib.dir/Server.cpp.o.d"
   "libechatlib.a"
+  "libechatlib.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

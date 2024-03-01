@@ -62,7 +62,7 @@ void DataBase::initGroupMap()
         return;
     }
     MYSQL_ROW row = mysql_fetch_row(res);
-    if (row <= 0)
+    if (row == nullptr)
     {
         mysql_free_result(res);
         res = nullptr;
@@ -295,7 +295,7 @@ bool DataBase::getNewID(int &newId)
     mysql_free_result(res);
     res = nullptr;
 
-    if (row <= 0)
+    if (row == nullptr)
         return false;
 
     newId = atoi(row[0]); // 拿到新的id
@@ -421,7 +421,7 @@ bool DataBase::QueryUser(const int &usrId)
     mysql_free_result(res);
     res = nullptr;
 
-    if (row <= 0)
+    if (row == nullptr)
         return false;
     return true;
 }
@@ -509,7 +509,7 @@ bool DataBase::Login(const int &usrId, const std::string &userPwd)
     mysql_free_result(verifyRes);
     verifyRes = nullptr;
 
-    if (verifyRow <= 0)
+    if (verifyRow == nullptr)
         return false;
     return true;
 }
@@ -783,7 +783,7 @@ bool DataBase::QueryUserApply(Json::Value &outValue, const int &usrId, const int
     }
     MYSQL_ROW row = mysql_fetch_row(res); // 获取一行数据
 
-    if (row <= 0)
+    if (row == nullptr)
         return false;
     outValue["applyTime"];
     outValue["ps"];
@@ -827,7 +827,7 @@ bool DataBase::QueryApplyList(Json::Value &outValue, const int &usrId)
     }
 
     MYSQL_ROW row = mysql_fetch_row(res); // 获取一行数据
-    if (row <= 0)
+    if (row == nullptr)
     {
         mysql_free_result(res);
         res = nullptr;
@@ -970,7 +970,7 @@ bool DataBase::QueryFriendRelation(std::string &outBuildTime, const int &usrId, 
     mysql_free_result(res);
     res = nullptr;
 
-    if (row <= 0)
+    if (row == nullptr)
         return false;
 
     outBuildTime = row[0]; // 建立时间
@@ -998,7 +998,7 @@ bool DataBase::QueryFriendList(Json::Value &outValue, const int &usrId)
     }
 
     MYSQL_ROW frdRow = mysql_fetch_row(frdRes); // 获取一行数据
-    if (frdRow <= 0)
+    if (frdRow  == nullptr)
     {
         mysql_free_result(frdRes);
         frdRes = nullptr;
@@ -1059,7 +1059,7 @@ bool DataBase::QueryGroup(const int &grpId)
     mysql_free_result(res);
     res = nullptr;
 
-    if (row <= 0)
+    if (row == nullptr)
         return false;
     return true;
 }
@@ -1089,7 +1089,7 @@ bool DataBase::QueryGroupLeader(const int &grpId, int &outLeaderId)
     mysql_free_result(res);
     res = nullptr;
 
-    if (row <= 0)
+    if (row == nullptr)
         return false;
     outLeaderId = atoi(row[0]);
     return true;
@@ -1229,7 +1229,7 @@ bool DataBase::QueryGroupMember(Json::Value &outValue, const int &grpId)
         return false;
     }
     MYSQL_ROW row = mysql_fetch_row(res); // 获取一行数据
-    if (row <= 0)
+    if (row == nullptr)
     {
         mysql_free_result(res);
         res = nullptr;
@@ -1413,7 +1413,7 @@ bool DataBase::QueryGroupList(Json::Value &outValue, const int &usrId)
     }
 
     MYSQL_ROW grpRow = mysql_fetch_row(grpRes); // 获取一行数据
-    if (grpRow <= 0)
+    if (grpRow  == nullptr)
     {
         mysql_free_result(grpRes);
         grpRes = nullptr;
@@ -1465,7 +1465,7 @@ bool DataBase::QueryUserGroupNickname(const int &usrId, const int &grpId, std::s
     }
 
     MYSQL_ROW row = mysql_fetch_row(res); // 获取一行数据
-    if (row <= 0)
+    if (row == nullptr)
     {
         mysql_free_result(res);
         res = nullptr;
@@ -1499,7 +1499,7 @@ bool DataBase::QueryGroupRelation(Json::Value &outValue, const int &usrId, const
     }
     MYSQL_ROW row = mysql_fetch_row(res);
 
-    if (row <= 0)
+    if (row == nullptr)
     {
         mysql_free_result(res);
         res = nullptr;
@@ -1654,7 +1654,7 @@ bool DataBase::QueryOfflineMsg(Json::Value &outValue, const int &sender, const i
         return false;
     }
     MYSQL_ROW row = mysql_fetch_row(res); // 获取一行数据
-    if (row <= 0)
+    if (row == nullptr)
     {
         mysql_free_result(res);
         res = nullptr;
@@ -1834,7 +1834,7 @@ bool DataBase::QueryChatObject(const int &type, const int &usrId, const int &sid
     mysql_free_result(res);
     res = nullptr;
 
-    if (row <= 0)
+    if (row == nullptr)
         return false;
     return true;
 }
@@ -1861,7 +1861,7 @@ bool DataBase::QueryChatObjectList(Json::Value &outValue, const int &usrId)
     MYSQL_ROW chatObjectRow = mysql_fetch_row(chatObjRes);
 
     // 没有聊天对象
-    if (chatObjectRow <= 0)
+    if (chatObjectRow == nullptr)
     {
         // 释放chatObjRes资源
         mysql_free_result(chatObjRes);
