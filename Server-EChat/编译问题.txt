@@ -1,11 +1,17 @@
 
 问题：json/json.h：没有这样的文件或目录
 
+方法一：拷贝json文件夹文件至系统头文件处
+sudo cp -r /home/[你的文件夹路径]/json /usr/include
+
+
+方法二：安装jsoncpp，此时json里面的文件可有可无
 sudo apt-get install libjsoncpp-dev（XXX install libjsoncpp-dev）
 sudo ln -s /usr/include/jsoncpp/json/ /usr/include/json
 
 
-问题：如何编译jsoncpp
+
+问题：如何编译jsoncpp（lib文件夹里面有编译好的，也无需再次编译）
 github：https://github.com/open-source-parsers/jsoncpp
 
 
