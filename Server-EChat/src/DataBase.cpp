@@ -120,6 +120,7 @@ void DataBase::initGroupMap()
 }
 
 // 生成不重复ID --√
+// 函数说明：向ec_new_ids表中插入id。根据传入的参数，在min和max中随机生成num个id，并且每生成一个id都会插入至ec_new_ids表中。
 #if 0 // 已完成生成
 bool DataBase::GenerateDiffID(int min, int max, int num)
 {
